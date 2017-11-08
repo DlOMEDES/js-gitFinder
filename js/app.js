@@ -53,10 +53,10 @@ $(document).ready(function() {
           <span class="badge badge-info">Following: ${user.following}</span>
           <br><br>
           <ul class="list-group">
-            <li class="list-group-item">Company: ${user.company}</li>
-            <li class="list-group-item">Websites/Blod: ${user.blog}</li>
-            <li class="list-group-item">Location: ${user.location}</li>
-            <li class="list-group-item">Member since: ${user.created_at}</li>
+            <li class="list-group-item bg-dark">Company: ${user.company}</li>
+            <li class="list-group-item bg-dark">Websites/Blod: ${user.blog}</li>
+            <li class="list-group-item bg-dark">Location: ${user.location}</li>
+            <li class="list-group-item bg-dark">Member since: ${user.created_at}</li>
           </ul>
           </div>
         </div>
